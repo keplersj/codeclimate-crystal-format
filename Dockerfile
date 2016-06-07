@@ -7,7 +7,7 @@ RUN useradd -u 9000 -r -s /bin/false app
 WORKDIR /usr/src/app
 COPY . /usr/src/app
 RUN mkdir -p bin
-RUN crystal build src/codeclimate-crystal-format.cr -o /usr/src/app/bin/crystal-format
+RUN crystal build src/codeclimate-crystal-format.cr --release -o /usr/src/app/bin/crystal-format
 
 WORKDIR /code
 
