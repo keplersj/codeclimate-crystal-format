@@ -1,0 +1,11 @@
+{
+  "name": "crystal-format",
+  "description": "The Crystal compiler contains a format tool which will examine code and attempt to update code style and out-of-date code.",
+  "maintainer": {
+    "name": "Kepler Sticka-Jones",
+    "email": "kepler@stickajones.org"
+  },
+  "language": ["Crystal"],
+  "verison": "0.1.0",
+  "spec_version": "0.0.1"
+}
