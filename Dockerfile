@@ -1,6 +1,6 @@
 FROM crystallang/crystal:0.17.4
 
-MAINTAINER Kepler Sticka-Jones <kepler@stickajones.org>
+MAINTAINER Kepler Sticka-Jones
 
 RUN useradd -u 9000 -r -s /bin/false app
 
